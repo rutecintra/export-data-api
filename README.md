@@ -2,7 +2,8 @@
 
 A Streamlit application to query paginated API data by specified year-month periods and export results to Excel.
 
-![Demo](https://prnt.sc/nsNYpq8tHOm-)
+## Demo
+![API Data Query Demo](assets/apidataquery.png)
 
 ## Features
 - Multi-period query capability
@@ -19,6 +20,6 @@ A Streamlit application to query paginated API data by specified year-month peri
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/api-data-query.git
-cd api-data-query
+git clone https://github.com/rutecintra/export-data-api.git
+cd export-data-api
 pip install -r requirements.txt
