@@ -1,1 +1,24 @@
-# export-data-api
+# API Data Query Application
+
+A Streamlit application to query paginated API data by specified year-month periods and export results to Excel.
+
+![Demo](https://via.placeholder.com/600x400?text=Streamlit+Interface+Preview) <!-- Add real screenshot -->
+
+## Features
+- Multi-period query capability
+- Automatic pagination handling
+- Excel export functionality
+- Data preview in app
+
+## Requirements
+- Python 3.7+
+- Streamlit
+- Pandas
+- Requests
+- Openpyxl (for Excel export)
+
+## Installation
+```bash
+git clone https://github.com/yourusername/api-data-query.git
+cd api-data-query
+pip install -r requirements.txt
