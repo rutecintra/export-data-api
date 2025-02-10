@@ -2,7 +2,7 @@
 
 A Streamlit application to query paginated API data by specified year-month periods and export results to Excel.
 
-![Demo](https://via.placeholder.com/600x400?text=Streamlit+Interface+Preview) <!-- Add real screenshot -->
+![Demo](https://prnt.sc/nsNYpq8tHOm-)
 
 ## Features
 - Multi-period query capability
