@@ -1,17 +1,17 @@
-# app.py
 import requests
 import pandas as pd
 import streamlit as st
 
-BASE_URL = "https://your-api-url-here.com"  # Replace with real API URL
+BASE_URL = "https://atendimento.agidesk.com/api/v1/datasets/companyagents"
 
 def fetch_data(yearmonths):
     all_data = []
     for yearmonth in yearmonths:
         params = {
-            "app_key": "your_api_key_here",  # Add your API key
+            "app_key": "3f24e72f72f6187215c69b4e9498a079",
             "metadata": "",
             "pretty": "",
+            "full": "",
             "yearmonth": yearmonth,
             "subprocess": "",
             "page": 1
